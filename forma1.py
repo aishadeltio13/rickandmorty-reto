@@ -79,7 +79,7 @@ def extraer_personajes(data):
 
     # personajes = extraer_personajes(data)
 
-# Insertar personajes en la tabla characters
+# Insertar personajes en la tabla characters. Utilizamos el "id" extraido de la API
 def insertar_characters(personajes):
     try:
         query = """
