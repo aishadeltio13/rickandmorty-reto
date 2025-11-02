@@ -1,0 +1,1 @@
+# Forma 2: usando la ayuda de la IA
