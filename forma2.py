@@ -133,11 +133,11 @@ def populate_characters():
         print(f"Ha ocurrido un error inesperado: {e}")
         connection.rollback()
 
-    # populate_characters()
+populate_characters()
     
     
 # PASO 4: COMPROBACION DE QUE EFECTIVAMENTE SE HAN GUARDADO LOS DATOS
-cur.execute("SELECT id, name, species FROM characters LIMIT 10;")
+cur.execute("SELECT id, name, species FROM characters2;")
 print(cur.fetchall())
 
 
@@ -146,5 +146,3 @@ connection.commit()
 cur.close()
 connection.close()
 
-
-# EXTRA: API CON FLASK
