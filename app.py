@@ -34,4 +34,4 @@ if __name__ == "__main__":
     
     
     
-# Luego podrás abrir http://localhost:5000/species y ver un JSON , nuestro puerto es el 5434
+# Luego podrás abrir http://localhost:5000/species y ver un JSON
